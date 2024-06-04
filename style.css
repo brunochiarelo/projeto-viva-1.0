@@ -66,10 +66,14 @@ header > nav > a:hover {
 
 }
 
+main {
+    
+}
+
 aside {
     background-color: var(--cor12);
     min-width: 350px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     padding: 15px;
 }
@@ -111,10 +115,12 @@ aside > p {
     line-height: 2em;
     padding-left: 10px;
     font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vw;
     color: rgb(0, 0, 0);
     border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
 
 } 
 
@@ -129,4 +135,55 @@ aside > p {
     font-variant: small-caps;
     font-size: 2vw;
     color: rgba(0, 0, 0, 0.66);
+}
+
+.imagem3 {
+    background-image: url('imagens/teste05.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+    line-height: 2em;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    font-variant: small-caps;
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.66);
+
+}
+
+section {
+    background-color: var(--cor12);
+    min-width: 350px;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 3.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2PX 2PX 5PX black;
+    
+    
+
+    
+}
+
+section > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.5vw;
+} 
+
+section > p > a {
+    text-decoration: none;
+    color: darkred;
+    
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+    
+
 }
